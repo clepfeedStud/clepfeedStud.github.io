@@ -1,0 +1,148 @@
+body
+{
+    margin: 0;
+    color: black;
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+        url("/images/main_img.jpeg");
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: top;
+    
+}
+
+h1, h2, h3, p, a 
+{
+    margin: 0;
+    font-family: "Source Code Pro";
+    font-weight: 600;
+}
+
+ul
+{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10.5vh;
+    margin: 0;
+    padding: 0 17.8vw;
+}
+ul:hover
+{
+    cursor: pointer;
+}
+
+li
+{
+    list-style-type: none;
+    height: 100%;
+    width: 12.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-duration: 200ms;
+    text-align: center;
+}
+.logo_in_nav
+{
+    width: 50%;
+    /* height: 100%; */
+}
+.logo_in_nav a
+{
+    font-size: calc(0.5rem + 0.7vw + 0.9vh);
+}
+
+li:hover
+{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+li:hover a
+{
+    color: white;
+}
+li div
+{
+    margin: 0 15vw;
+}
+li a
+{
+    color: #33334D;
+    text-decoration: none;
+    font-size: calc(0.55vw + 0.7vh);
+    width: 100%;
+}
+.thisPage
+{
+    color: gray;
+}
+thisPage:hover
+{
+    color: gray;
+}
+
+
+main
+{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    color: white;
+}
+
+main h1
+{
+    color: white;
+    font-size: calc(1rem + 3vw);
+    margin-top: 8.5vh;
+}
+main div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 4vh;
+    height: 37vh;
+}
+main div img 
+{
+    width: 2vw;
+    fill: white;
+}
+
+main p
+{
+    color: white;
+    font-size: calc(0.4rem + 0.4vw);
+    font-weight: 400;
+    letter-spacing: 0.3rem;
+}
+
+
+
+footer
+{
+    background-color: white;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer p, footer a
+{
+    color: black;
+    font-size: calc(0.6rem + 0.4vh);
+    font-weight: 400;
+}
+footer a
+{
+    font-size: calc(0.6rem + 0.2vh);
+    color: #ff8562;
+    margin-top: 0.5vh;
+}
